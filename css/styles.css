@@ -1,0 +1,83 @@
+/*************TAG SELECTORS*************/
+body {
+  font-size: 60px;
+  background-color: cyan;
+  align-content: center;
+}
+
+h1 {
+  color: red;
+  background-color: orange;
+}
+
+p {
+  background-color: gold;
+  color: brown;
+  width: 50%;
+}
+
+img:hover{
+  filter: invert(1)
+}
+h3 {
+  align-content: center;
+  color: grey;
+}
+
+h4 {
+  align-content: center;
+  background-color: green;
+  color: yellow;
+}
+
+h5 {
+  align-content: center;
+  background-color: purple;
+  color: magenta;
+}
+
+h6 {
+  align-content: center;
+  background-color: blue;
+  color: lime;
+}
+
+h2 {
+  align-content: center;
+}
+
+/***************************CLASS SELECTORS**********************/
+/* Class selectors work the best */
+.bacon {
+  background-color: red;
+  width: 250px;
+  border-radius: 50%
+
+}
+
+.couple {
+  background-color: purple;
+  width: 250px;
+  border-radius: 50%;
+
+}
+
+.megan {
+  background-color: blue;
+  width: 300px;
+  border-radius: 100%
+
+}
+/**********************ID SELECTORS*****************************/
+/*
+#first{
+  color: red;
+}
+#second{
+  color: blue;
+}
+#third{
+  color: yellow;
+  width: 120px
+}
+*/
